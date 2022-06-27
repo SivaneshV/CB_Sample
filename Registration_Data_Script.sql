@@ -1,0 +1,17 @@
+CREATE TABLE `doctorfind`.`register_data` (
+  `ID` INT NOT NULL AUTO_INCREMENT,
+  `HCPId` INT NULL, 
+  `Firstname` NVARCHAR(50) NULL,
+  `Lastname` NVARCHAR(50) NULL,
+  `Password` NVARCHAR(50) NULL,
+  `ContactNumber` NVARCHAR(50) NULL,
+  `Email` NVARCHAR(250) NULL,
+  `Street` NVARCHAR(250) NULL,
+  `Area` NVARCHAR(250) NULL,
+  `City` NVARCHAR(50) NULL,
+  `State` NVARCHAR(50) NULL,
+  `Country` NVARCHAR(50) NULL,
+  `Zipcode` NVARCHAR(50) NULL,
+  `Designation` NVARCHAR(250) NULL,
+  `Status` NVARCHAR(50) NULL DEFAULT 'Active',
+  PRIMARY KEY (`ID`));
