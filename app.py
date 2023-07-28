@@ -1,4 +1,6 @@
 from flask import Flask
+import git
+
 app = Flask(__name__)
 
 @app.route('/git_update', methods=['POST'])
